@@ -5,7 +5,7 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-df = pd.read_csv(r'D:\CDSP\Sessions\Project\student_exam_performance_analysis\Student.csv')
+df = pd.read_csv(r'Student.csv')
 
 
 cols = df.select_dtypes('str').columns.to_list()
